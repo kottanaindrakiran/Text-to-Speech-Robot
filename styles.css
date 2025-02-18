@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background: url(https://cdn.elearningindustry.com/wp-content/uploads/2021/06/shutterstock_1814193623.png)no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow:
+1px 1px 2px black,
+0 0 1em blue,
+0 0 0.2em blue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+   
+}
+.input-box {
+    text-align: center;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-shadow:
+1px 1px 2px black,
+0 0 1em blue,
+0 0 0.2em blue;
+}
+.robot-container {
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    
+}
+.robot {
+    width: 150px;
+    height: 150px;
+    background: url('https://cdn-icons-png.flaticon.com/512/4712/4712036.png') no-repeat center;
+    background-size: cover;
+    animation: bounce 1.5s infinite;
+    
+
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+button {
+    background-color: #bf3535;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+button:hover {
+    background-color: #45a049;
+}
+input[type="text"] {
+    width: 400px;
+    height: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 10px;
+}
